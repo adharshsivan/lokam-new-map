@@ -1,0 +1,63 @@
+{
+  "resolution": [
+    1025,
+    1025
+  ],
+  "bitDepth": 16,
+  "heightDecode": "heightMeters = pixel / 65535 * heightRangeMeters + minHeightMeters",
+  "minHeightMeters": -24.0,
+  "maxHeightMeters": 180.09588623046875,
+  "heightRangeMeters": 204.09588623046875,
+  "seaLevelMeters": 3.4,
+  "boundsXZ": {
+    "min": [
+      -972.973388671875,
+      -1027.77734375
+    ],
+    "max": [
+      972.973388671875,
+      1027.77734375
+    ]
+  },
+  "sampleSpacingMeters": [
+    1.9003386497497559,
+    2.0073776245117188
+  ],
+  "terrainFootprintKm2": 4.000000019794464,
+  "imageRows": "row 0 = minimum world Z; columns increase along +X",
+  "formerProtectedBankMaxHeightChangeMeters": 44.595041125350996,
+  "beachClassification": "sandy ocean and narrow-channel edges graded; only grid-scale shoreline notches adjusted",
+  "limitations": "Single-valued heightfield cannot preserve overhangs or caves. Shoreline correspondence is limited by grid resolution.",
+  "Desktop": {
+    "grid": 897,
+    "terrainTriangles": 1031811,
+    "trees": 579,
+    "sizeMB": 34.582,
+    "filename": "Emerald_Haven_Heightmap_Desktop.glb",
+    "normalMap": "Terrain_Normal_Desktop.png",
+    "roughnessMap": "Terrain_Roughness_Desktop.png"
+  },
+  "Mobile": {
+    "grid": 385,
+    "terrainTriangles": 191586,
+    "trees": 579,
+    "sizeMB": 7.059,
+    "filename": "Emerald_Haven_Heightmap_Mobile.glb",
+    "normalMap": "Terrain_Normal_Mobile.png",
+    "roughnessMap": "Terrain_Roughness_Mobile.png"
+  },
+  "landSilhouetteIoU": 0.9969211330940039,
+  "modifiedHeightSamples": 569839,
+  "previewBeach": {
+    "target": [
+      431.3768734931946,
+      7.3231406834692105,
+      190.70087432861328
+    ],
+    "position": [
+      431.3768734931946,
+      38,
+      310.7008743286133
+    ]
+  }
+}
